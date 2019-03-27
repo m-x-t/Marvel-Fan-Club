@@ -11,11 +11,10 @@ Group Project - README Template
 
 ## Overview
 ### Description
-Thos app will allow you to interact with other Marvel fans by discussing favored movies and scenes, 
-share hype or disdain for trailers, and 
+This app will allow you to interact with other Marvel fans by discussing favored movies and scenes, 
+share hype or disdain for trailers, and view a tribute to the late Stan Lee, founder of Marvel.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Social Media
 - **Mobile:** This app would primarily be used for mobile devices. While it could function on a pc, it would most
 likely have additional features on a mobile platform.
