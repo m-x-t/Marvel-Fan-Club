@@ -11,12 +11,13 @@ Group Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+Thos app will allow you to interact with other Marvel fans by discussing favored movies and scenes, 
+share hype or disdain for trailers, and 
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
+- **Category:** Social Media
+- **Mobile:** 
 - **Story:**
 - **Market:**
 - **Habit:**
