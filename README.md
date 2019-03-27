@@ -17,11 +17,16 @@ share hype or disdain for trailers, and
 ### App Evaluation
 [Evaluation of your app across the following attributes]
 - **Category:** Social Media
-- **Mobile:** 
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Mobile:** This app would primarily be used for mobile devices. While it could function on a pc, it would most
+likely have additional features on a mobile platform.
+- **Story:** Connects Marvel fans together to share or discuss opinions in a public platform.
+Users would be required to register an account to use the profile features such as friending other
+fans.
+- **Market:** This app would be best for persons older than 18, considering the toxicity that could arise from
+differing opinions. Such negativity would not be appropriate for adolescence. While the forums would be monitered, there is not guarantee that inappropriate behavior would never occur.
+- **Habit:** This app could be used anytime, however the best time would be after the announcement of a brand new Marvel movie.
+- **Scope:** This would start as a simple forum/social media platform that could evolve to a hub for fan art and fan fics for
+favorite Marvel cast members.
 
 ## Product Spec
 
