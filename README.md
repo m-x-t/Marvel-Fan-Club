@@ -1,7 +1,7 @@
 Group Project - README Template
 ===
 
-# Marvel Fan App
+# Marvel Fan Club
 
 ## Table of Contents
 1. [Overview](#Overview)
