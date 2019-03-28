@@ -100,7 +100,7 @@ favorite Marvel cast members.
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="Marvel-Fan-Club.png" width=600>
 
 ### [BONUS] Digital Wireframes & Mockups
 
