@@ -114,3 +114,48 @@ favorite Marvel cast members.
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
 - [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]
+
+**List of objects**:
+1. Users
+2. Posts
+3. Comments
+4. Trailers
+
+Users:
+| Property | Type  | Description |
+| -------- | -------- | -------- |
+| objectId | String   | the user unique id |
+|  avatar  |  jpg   | user profile image| | |
+| Bio  | string     | user descrption   ||
+| Followers| int     | Users amount of followers| |
+|  Following   | int     | Users amount following||
+|   fMovie   | jpg     | Photo cover of the movie(will be used in the cover photo)| |
+|  fScene  | gif     | a gif of the scene the user likes (will be used in the cover photo)    |
+| fCharacter | jpg  | The user one favorite charcter(will be used in the cover photo) |
+| cPhoto | image/gif  | a area where you can slide left and right for the users favorite attributes |
+
+Posts:
+| Property | Type  | Description |
+| -------- | -------- | -------- |
+| uContent   | String     | user content     |
+| bPost | button     | to post user content     |
+| image     | File     | when user post a image|
+
+Comments:
+| Property | Type  | Description |
+| -------- | -------- | -------- |
+| comment   | string     | feed of commetns on a post  ||
+| objectId | String     | the user username||
+| cImage     | file/jpg| Text     ||
+| avatar    | jpg     | user profile image     ||
+| commentsCount    | int     | number of comments     | |
+| likesCount    | int     | number of likes     | |
+| createdAt     | DateTime     | date when the post was crearted      |
+| updatedAt    | DateTime     | date when  post is last updated     |
+
+
+**API Calls:**
+
+*Youtube*:
+* Trailer Screen
+    * (READ/GET) the trailers
