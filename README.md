@@ -102,10 +102,13 @@ This app will allow you to interact with other Marvel fans by discussing favored
 ### [BONUS] Interactive Prototype
 
 ## Schema 
+
 1. Users
 2. Posts
 3. Comments
 4. Trailers
+
+### Models
 
 *Users*:
 | Property | Type  | Description |
@@ -143,8 +146,5 @@ This app will allow you to interact with other Marvel fans by discussing favored
 *Youtube*:
 * Trailer Screen
     * (READ/GET) the trailers
-
-### Models
-**List of objects**:
 
 
