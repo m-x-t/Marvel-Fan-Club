@@ -109,12 +109,6 @@ favorite Marvel cast members.
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
-### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]
-
 **List of objects**:
 1. Users
 2. Posts
@@ -159,3 +153,8 @@ Comments:
 *Youtube*:
 * Trailer Screen
     * (READ/GET) the trailers
+
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]- [OPTIONAL: List endpoints if using existing API such as Yelp]
