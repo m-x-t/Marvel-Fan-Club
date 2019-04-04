@@ -125,9 +125,9 @@ This app will allow you to interact with other Marvel fans by discussing favored
 
 *Posts*:
 | Property | Type  | Description |
-| -------- | -------- | -------- |
-| uContent   | String     | user content     |
-| bPost | button     | to post user content     |
+|--------|--------|--------|
+| uContent | String | user content |
+| bPost | button | to post user content |
 | image     | File     | when user post a image|
 
 *Comments*:
