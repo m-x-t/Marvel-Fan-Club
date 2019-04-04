@@ -111,6 +111,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 ### Models
 
 *Users*:
+
 | Property | Type  | Description |
 | -------- | -------- | -------- |
 | objectId | String   | the user unique id |
@@ -124,6 +125,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 | cPhoto | image/gif  | a area where you can slide left and right for the users favorite attributes |
 
 *Posts*:
+
 | Property | Type  | Description |
 |--------|--------|--------|
 | uContent | String | user content |
@@ -131,6 +133,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 | image     | File     | when user post a image|
 
 *Comments*:
+
 | Property | Type  | Description |
 | -------- | -------- | -------- |
 | comment   | string     | feed of commetns on a post|
@@ -141,6 +144,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 | likesCount    | int     | number of likes     |
 | createdAt     | DateTime     | date when the post was crearted      |
 | updatedAt    | DateTime     | date when  post is last updated     |
+
 ### Networking
 
 *Youtube*:
