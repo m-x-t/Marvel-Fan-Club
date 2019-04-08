@@ -97,7 +97,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 ## Wireframes
 
 ### [BONUS] Digital Wireframes & Mockups
-<img src="Marvel-Fan-Club.PNG" width=600>
+<img src="https://github.com/m-x-t/Marvel-Fan-Club/blob/master/Marvel.PNG" width=600>
 
 ### [BONUS] Interactive Prototype
 
