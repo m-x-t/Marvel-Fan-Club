@@ -1,4 +1,7 @@
-package com.example.m_x_t;
+package com.example.marvelfanclub;
 
-public class RegisterActivity {
+import android.support.v7.app.AppCompatActivity;
+
+public class RegisterActivity extends AppCompatActivity {
+
 }
