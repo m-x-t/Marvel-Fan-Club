@@ -10,7 +10,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.m_x_t.R;
+
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
@@ -19,24 +19,24 @@ public class LoginActivity extends AppCompatActivity {
 
     private static final String TAG = "LoginActivity";
 
-    private TextView tvUsername;
-    private TextView tvPassword;
+    private EditText etUsername;
+    private EditText etPassword;
     private Button btnLogin;
     private Button btnRegister;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.login_main);
+        setContentView(R.layout.activity_login);
 
-        tvUsername = findViewById(R.id.tvUsername);
-        tvPassword = findViewById(R.id.tvPassword);
+        etUsername = findViewById(R.id.etUsername);
+        etPassword = findViewById(R.id.etPassword);
         btnLogin = findViewById(R.id.btnLogin);
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
-                String username = tvUsername.getText().toString();
-                String password = tvPassword.getText().toString();
+                String username = etUsername.getText().toString();
+                String password = etPassword.getText().toString();
                 login(username, password);
             }
         });
@@ -44,7 +44,7 @@ public class LoginActivity extends AppCompatActivity {
         btnRegister.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                register();
+                goRegister();
             }
         });
 
@@ -60,19 +60,25 @@ public class LoginActivity extends AppCompatActivity {
                     e.printStackTrace();
                     return;
                 }
-                goMainActivity();
+                goFeed();
             }
         });
     }
 
-    private void register(){
-        Intent i = new Intent(this, Feed.class);
-        startActivity(i);
-    }
+//    private void register(){
+//        Intent i = new Intent(this, Feed.class);
+//       startActivity(i);
+//   }
 
-    private void goMainActivity() {
+    private void goFeed() {
         Log.d(TAG, "Navigating to Main Activity");
         Intent i = new Intent(this, Feed.class);
+        startActivity(i);
+        finish();
+    }
+    private void goRegister() {
+        Log.d(TAG, "Navigating to Main Activity");
+        Intent i = new Intent(this, RegisterActivity.class);
         startActivity(i);
         finish();
     }
