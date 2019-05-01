@@ -9,7 +9,7 @@ import com.parse.ParseUser;
 public class Post extends ParseObject{
 
     public static final String KEY_DESCRIPTION = "description";
-    public static final String KEY_IMAGE = "image";
+    //public static final String KEY_IMAGE = "image";
     public static final String KEY_USER = "user";
     public static final String KEY_CREATED_AT = "createdAt";
 
@@ -21,12 +21,12 @@ public class Post extends ParseObject{
         put(KEY_DESCRIPTION, description);
     }
 
-    public ParseFile getImage(){
-        return getParseFile(KEY_IMAGE);
-    }
+    //public ParseFile getImage(){
+        //return getParseFile(KEY_IMAGE);
+    //}
 
     public void setImage(ParseFile file){
-        put(KEY_IMAGE, file);
+        //put(KEY_IMAGE, file);
     }
 
     public ParseUser getUser(){

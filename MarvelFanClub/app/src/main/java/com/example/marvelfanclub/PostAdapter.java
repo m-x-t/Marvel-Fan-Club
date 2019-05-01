@@ -50,21 +50,22 @@ public class PostAdapter extends RecyclerView.Adapter<PostAdapter.ViewHolder>{
         private TextView tvHandle;
         private ImageView ivImage;
         private TextView tvDescription;
-        private RatingBar ratingBar;
+
 
         public ViewHolder(@NonNull View itemView) {
             super(itemView);
-            tvHandle = itemView.findViewById(R.id.tvPost);
-            ivImage = itemView.findViewById(R.id.ivProfile);
-            ratingBar = itemView.findViewById(R.id.ratingBar);
+            tvDescription = itemView.findViewById(R.id.tvPost);
+            //ivImage = itemView.findViewById(R.id.ivPost);
+            tvHandle = itemView.findViewById(R.id.tvHandle);
+
         }
 
         public void bind(Post post){
             tvHandle.setText(post.getUser().getUsername());
-            ParseFile image = post.getImage();
-            if (image != null){
-                Glide.with(context).load(image.getUrl()).into(ivImage);
-            }
+            //ParseFile image = post.getImage();
+            //if (image != null){
+                //Glide.with(context).load(image.getUrl()).into(ivImage);
+            //}
             tvDescription.setText(post.getDescription());
         }
     }

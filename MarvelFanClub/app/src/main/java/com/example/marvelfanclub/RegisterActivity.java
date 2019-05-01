@@ -18,7 +18,7 @@ public class RegisterActivity extends AppCompatActivity {
     private TextView rEmail;
     private TextView rPassword;
     private TextView rConfirm;
-    private Button btnCreate;
+    public Button btnCreate;
     private final String TAG = "RegisterActivity";
 
     @Override
@@ -40,22 +40,23 @@ public class RegisterActivity extends AppCompatActivity {
                 String password = rPassword.getText().toString();
                 String confirm = rConfirm.getText().toString();
                 String email = rEmail.getText().toString();
-                if(password != confirm){
+                if(!password.contentEquals(confirm)){
                     Toast.makeText(RegisterActivity.this, "Passwords Do Not Match", Toast.LENGTH_SHORT).show();
                 }
                 else{
                     ParseUser user = new ParseUser();
-                    // Set core properties
+                     //Set core properties
                     user.setUsername(username);
                     user.setPassword(password);
                     user.setEmail(email);
-                    // Set custom properties
-                    // Invoke signUpInBackground
+                     //Set custom properties
+                     //Invoke signUpInBackground
                     user.signUpInBackground(new SignUpCallback() {
                         public void done(ParseException e) {
                             if (e == null) {
                                 Toast.makeText(RegisterActivity.this, "Success!", Toast.LENGTH_SHORT).show();
                                 goFeed();
+                                //setContentView(R.layout.activity_feed);
                             } else {
                                 Log.d(TAG,"Register Failed");
                                 Toast.makeText(RegisterActivity.this, "Try Again!", Toast.LENGTH_SHORT).show();

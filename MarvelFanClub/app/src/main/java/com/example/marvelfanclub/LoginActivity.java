@@ -45,6 +45,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 goRegister();
+                Toast.makeText(LoginActivity.this, "pushed", Toast.LENGTH_SHORT).show();
+                //setContentView(R.layout.activity_feed);
             }
         });
 
@@ -71,13 +73,13 @@ public class LoginActivity extends AppCompatActivity {
 //   }
 
     private void goFeed() {
-        Log.d(TAG, "Navigating to Main Activity");
+        Log.d(TAG, "Navigating to Feed");
         Intent i = new Intent(this, Feed.class);
         startActivity(i);
         finish();
     }
     private void goRegister() {
-        Log.d(TAG, "Navigating to Main Activity");
+        Log.d(TAG, "Navigating to Register Activity");
         Intent i = new Intent(this, RegisterActivity.class);
         startActivity(i);
         finish();

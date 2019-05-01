@@ -6,6 +6,7 @@ import android.support.design.widget.BottomNavigationView;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.MenuItem;
 
 import com.example.marvelfanclub.Fragments.ComposeFragment;
@@ -21,16 +22,20 @@ public class Feed extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        Log.d(TAG, "Navigated to Feed");
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_feed);
+        Log.d(TAG, "Layout made");
         final FragmentManager fragmentManager = getSupportFragmentManager();
 
         bottomNavigationView = findViewById(R.id.bottom_navigation);
+        Log.d(TAG, "bottom navigation made");
 
 
         bottomNavigationView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
             @Override
            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
+                Log.d(TAG, "listener active");
                 Fragment fragment;
                 switch (menuItem.getItemId()) {
                     case R.id.action_feed:
