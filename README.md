@@ -29,19 +29,20 @@ This app will allow you to interact with other Marvel fans by discussing favored
 
 **Required Must-have Stories**
 
-* -[ ] Register account
-* -[ ] Login to account
-* -[ ] Post, like, favorite and rate pictures of movies
-* -[ ] Page of trailers that can be commented on and rated
-* -[ ] Tribute page for the great Stan Lee
+* -[x] Register account
+* -[x] Login to account
+* -[x] Post discussions
 
 **Optional Nice-to-have Stories**
 
-* -[ ] Forum page
+* -[x] Forum page
 * -[ ] Comic creation page
 * -[ ] Fanfic page
 * -[ ] Friends/Followers
 * -[ ] Debate Page
+* -[ ] Page of trailers that can be commented on and rated
+* -[ ] Tribute page for the great Stan Lee
+
 
 ### 2. Screen Archetypes
 
@@ -74,7 +75,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 
 **Tab Navigation** (Tab to Screen)
 
-* Stream
+* Feed
 * Profile
 * Creation
 * Trailers
