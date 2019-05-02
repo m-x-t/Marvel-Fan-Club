@@ -103,7 +103,7 @@ This app will allow you to interact with other Marvel fans by discussing favored
 ### Gif
 Here's a walkthrough of implemented user stories:
 
-<img src='marvelGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='marvelGif2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
