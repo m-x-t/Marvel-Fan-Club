@@ -100,7 +100,13 @@ This app will allow you to interact with other Marvel fans by discussing favored
 ### [BONUS] Digital Wireframes & Mockups
 <img src="https://github.com/m-x-t/Marvel-Fan-Club/blob/master/Marvel.PNG" width=600>
 
-### [BONUS] Interactive Prototype
+### Gif
+Here's a walkthrough of implemented user stories:
+
+<img src='marvelGif.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
 
 ## Schema 
 
